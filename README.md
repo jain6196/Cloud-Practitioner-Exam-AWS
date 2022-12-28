@@ -10,6 +10,7 @@ There are few Udemy Courses and test papers links mentioned that can be used for
 2. https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/
 3. https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c/
 4. Telegram Channel: https://t.me/awsCCP (Contains good questions and other resources)
+5. Question Accessible without Login https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/
 
 If anyone finds any other useful courses or any other great preparation material. 
 
