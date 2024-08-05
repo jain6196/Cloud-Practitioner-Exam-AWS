@@ -190,35 +190,40 @@
     - B. AWS CodePipeline
     - C. AWS WAF
     - D. AWS SNS
-    - **Answer: C**
 
-27. **What is the purpose of an AWS Security Group?**
+     - **Answer: C**
+
+28. **What is the purpose of an AWS Security Group?**
     - A. To manage user permissions
     - B. To control inbound and outbound traffic to AWS resources
     - C. To automate application deployments
     - D. To provide DDoS protection
-    - **Answer: B**
 
-28. **How can you secure API endpoints in AWS?**
+     - **Answer: B**
+
+30. **How can you secure API endpoints in AWS?**
     - A. By using AWS CloudFormation
     - B. By using AWS IAM policies
     - C. By using AWS API Gateway with AWS WAF
     - D. By using AWS CodeDeploy
-    - **Answer: C**
 
-29. **Which AWS service can be used to scan Docker images for vulnerabilities?**
+     - **Answer: C**
+
+32. **Which AWS service can be used to scan Docker images for vulnerabilities?**
     - A. AWS CloudFormation
     - B. AWS CodePipeline
     - C. Amazon ECR
     - D. AWS CodeBuild
-    - **Answer: C**
 
-30. **How can you protect data in transit between your application and Amazon S3?**
+     - **Answer: C**
+
+34. **How can you protect data in transit between your application and Amazon S3?**
     - A. Use AWS IAM roles
     - B. Enable S3 versioning
     - C. Use SSL/TLS
     - D. Configure bucket policies
-    - **Answer: C**
+
+     - **Answer: C**
 
 ### Data Protection
 31. **Which AWS service provides managed encryption for databases?**
@@ -226,37 +231,40 @@
     - B. AWS Glue
     - C. AWS Lambda
     - D. Amazon S3
-    - **Answer: A**
 
-32. **What is the primary function of AWS Secrets Manager?**
+     - **Answer: A**
+
+33. **What is the primary function of AWS Secrets Manager?**
     - A. To encrypt data at rest
     - B. To manage and rotate secrets like database credentials
     - C. To monitor application performance
     - D. To manage encryption keys
+  
     - **Answer: B**
 
-33. **Which encryption method does Amazon S3 use for server-side encryption with AWS KMS (SSE-KMS)?**
+34. **Which encryption method does Amazon S3 use for server-side encryption with AWS KMS (SSE-KMS)?**
     - A. AES-128
     - B. AES-256
-
-
     - C. RSA-2048
     - D. SHA-256
+  
     - **Answer: B**
 
-34. **How can you ensure the confidentiality of data stored in Amazon DynamoDB?**
+35. **How can you ensure the confidentiality of data stored in Amazon DynamoDB?**
     - A. By enabling DynamoDB Streams
     - B. By enabling DynamoDB encryption at rest
     - C. By enabling DynamoDB Auto Scaling
     - D. By enabling DynamoDB DAX
-    - **Answer: B**
 
-35. **Which AWS service helps you manage encryption keys used for protecting data?**
+     - **Answer: B**
+
+37. **Which AWS service helps you manage encryption keys used for protecting data?**
     - A. AWS Shield
     - B. AWS KMS
     - C. AWS WAF
     - D. AWS CloudTrail
-    - **Answer: B**
+
+     - **Answer: B**
 
 ### Identity Federation and Access Management
 36. **Which AWS service allows you to enable single sign-on (SSO) for AWS accounts and applications?**
@@ -264,34 +272,39 @@
     - B. AWS SSO
     - C. AWS KMS
     - D. AWS GuardDuty
+
     - **Answer: B**
 
-37. **How can you enable federated access to AWS resources for users from an external identity provider?**
+38. **How can you enable federated access to AWS resources for users from an external identity provider?**
     - A. By creating IAM roles and policies
     - B. By using AWS Directory Service
     - C. By using AWS Cognito
     - D. By using AWS Shield
+
     - **Answer: C**
 
-38. **Which of the following can be used to grant temporary access to AWS resources?**
+39. **Which of the following can be used to grant temporary access to AWS resources?**
     - A. AWS KMS
     - B. AWS STS
     - C. AWS CloudFormation
     - D. AWS S3
+  
     - **Answer: B**
 
-39. **What is the main purpose of AWS Directory Service?**
+40. **What is the main purpose of AWS Directory Service?**
     - A. To encrypt data at rest
     - B. To manage user authentication and directory services
     - C. To protect web applications
     - D. To manage IoT devices
+ 
     - **Answer: B**
 
-40. **Which service allows you to create, manage, and deploy scalable user directories in AWS?**
+41. **Which service allows you to create, manage, and deploy scalable user directories in AWS?**
     - A. AWS CloudFormation
     - B. AWS IAM
     - C. AWS Directory Service
     - D. AWS KMS
+ 
     - **Answer: C**
 
 ### Logging and Monitoring
@@ -300,6 +313,7 @@
     - B. AWS CloudWatch Logs
     - C. AWS Kinesis
     - D. AWS CodePipeline
+  
     - **Answer: B**
 
 42. **How can you monitor API activity in your AWS account?**
@@ -307,6 +321,7 @@
     - B. By using AWS RDS
     - C. By using AWS Glue
     - D. By using AWS S3
+ 
     - **Answer: A**
 
 43. **Which AWS service provides detailed monitoring and alarms for AWS resources?**
@@ -314,6 +329,7 @@
     - B. AWS CloudWatch
     - C. AWS CodeBuild
     - D. AWS Shield
+  
     - **Answer: B**
 
 44. **What is the purpose of AWS Config?**
@@ -321,6 +337,7 @@
     - B. To automate infrastructure provisioning
     - C. To deploy applications
     - D. To manage encryption keys
+
     - **Answer: A**
 
 45. **Which service can be used to log and audit changes to AWS resources?**
@@ -328,6 +345,7 @@
     - B. AWS CloudTrail
     - C. AWS WAF
     - D. AWS Shield
+
     - **Answer: B**
 
 ### Advanced Topics and Best Practices
@@ -336,6 +354,7 @@
     - B. AWS CloudTrail
     - C. AWS IAM
     - D. AWS Lambda
+ 
     - **Answer: A**
 
 47. **How can you manage permissions for multiple AWS accounts efficiently?**
@@ -343,6 +362,7 @@
     - B. By using AWS Organizations and Service Control Policies (SCPs)
     - C. By using AWS CloudFormation
     - D. By using AWS Direct Connect
+
     - **Answer: B**
 
 48. **What is the main benefit of using AWS Control Tower?**
@@ -350,6 +370,7 @@
     - B. To automate the setup of a secure, multi-account AWS environment
     - C. To manage encryption keys
     - D. To provide DDoS protection
+
     - **Answer: B**
 
 49. **Which AWS service can be used to automate incident response in the cloud?**
@@ -357,6 +378,7 @@
     - B. AWS Lambda
     - C. AWS CodeDeploy
     - D. AWS CloudFormation
+ 
     - **Answer: B**
 
 50. **What best practice should be followed to ensure least privilege access in AWS?**
@@ -364,6 +386,7 @@
     - B. Grant permissions to individual users directly
     - C. Use IAM roles and managed policies to assign permissions
     - D. Disable CloudTrail logging
-    - **Answer: C**
+
+     - **Answer: C**
 
 These questions and answers should help you get a good grasp of the AWS security topics covered in the AWS Security Specialty exam.
